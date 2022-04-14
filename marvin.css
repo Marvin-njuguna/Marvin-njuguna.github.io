@@ -1,0 +1,839 @@
+
+padding:0px;
+box-sizing: border-box;
+margin:0px:
+.bgnew{
+    background-image: url("img/4mb.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    margin: 0px auto;}  
+
+.bg4{       
+    background-color: black;
+    background-image: url("img/4mb.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    margin: 0px auto;
+}
+
+
+
+.bg5{       background-color:black;}
+.bg2{       background-color:black;}
+.bg3{
+    background-color: antiquewhite;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+.navigation{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.menubar{
+    background-color:green;
+    text-align: center;
+    
+}
+.menubar ul{
+    display:inline-flex;
+    list-style: none;
+    color:black;
+}
+.menubar ul li{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+
+body{
+    
+    font-family: sans-serif;
+}
+
+.active, .menubar ul li:hover{
+    background: black;
+    border-radius: 3px;
+     
+}
+
+.picturesdropdown{
+    display: none;
+}
+
+.menubar ul li:hover .picturesdropdown{
+    display:block;
+    position: absolute;
+    background:green;
+    margin-top: 5px;
+    margin-left: -5px;
+    z-index: 11;
+}
+
+.menubar ul li:hover .picturesdropdown ul{
+    display: block;
+    margin:10px;
+}
+
+.menubar ul li:hover .picturesdropdown ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menubar ul li:hover .picturesdropdown ul li:last-child{
+    border-bottom: none;
+}
+
+.menubar ul li:hover .picturesdropdown ul li a:hover{
+    color:white;
+}
+.menubar .fa{
+    margin-right: 8px;
+}
+/*automatic slider*/
+#slider
+{
+    width: 100%;
+
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color:yellow;
+    font-size: 25px;
+    font-family:'Rubik Wet Paint', cursive; 
+}
+/*about us*/
+.about{
+    color: wheat;
+}
+.aboutus{
+    font-family:serif;
+    color: purple;
+    font-size: 30;
+}
+.about{
+    width: -50%;
+    position: relative;
+    
+}
+.menupics1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.menupics2{
+    position: absolute;
+    right: 270px;
+    top: 0px;
+}
+
+/*additional info*/
+.addinfo{
+    position: relative;
+}
+.addinfo p{
+    color: wheat;
+}
+.addinfo1{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.addinfotext{
+    position: absolute;
+    left: 270px;
+    top: 0px;
+    color: purple;
+    font-family:serif;
+    font-size: 30px;
+   
+}
+.addinfotext1{
+    
+    width: 40%;
+    position: absolute;
+    left: 270px;
+    top: 40px;
+    
+}
+.eapic{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.yvapic{
+    position: absolute;
+    right: 525px;
+     top: 270px;
+    
+}
+.yvatext{
+    position: absolute;
+    left: 10px;
+    top: 270px;
+    color: purple;
+    font-family:serif;
+    font-size: 30px;
+   
+}
+.yvatext1{
+    width: 40%;
+    position: absolute;
+    left: 10px;
+    top: 310px;
+}
+.ratext{
+    position: absolute;
+    left: 10px;
+    top: 400px;
+    color: purple;
+    font-family:serif;
+    font-size: 30px;
+    
+}
+.ratext1{
+    width: 40%;
+    position: absolute;
+    left: 10px;
+    top: 440px;
+}
+
+/*services*/
+.ourservices{
+    position: relative;
+    
+}
+.ourservicesdiv{
+    position: absolute;
+    left: 10px;
+}
+.ourservicestext{
+    position: absolute;
+    left: 520px;
+    top: 0px;
+    
+}
+.piercingser{
+    position: absolute;
+    left: 515px;
+    top: 50px;
+    color: purple;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.piercingmain{
+    position: absolute;
+    left: 520px;
+    top: 90px;
+    
+}
+.piercingimg{
+    position: absolute;
+    left: 515px;
+    top: 250px;
+}  
+.piercingend{
+    position: absolute;
+    top: 222px;
+    color:red;
+    left: 830px;
+    font-size: 20px;
+}
+.fourteendiv{
+    position: relative;
+}
+.fourteen{
+    width: 25%;
+    position: absolute;
+    left: 770px;
+    top: 250px;
+    
+    
+}
+.fourteenred{
+    color: red;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.hrefp{
+    width: 20%;
+    position: absolute;
+    top: 450px;
+    left: 770px;
+}
+.imagefourteen{
+    position: absolute;
+    top: 250px;
+    right: 5px;
+}
+.tat{
+    position: relative;
+}
+.rock1{
+    position: absolute;
+    top: 510px;
+    right: 5px;
+    
+}
+.tatser{
+    position: absolute;
+    left: 10px;
+    top: 500px;
+    color: purple;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.tatmain{
+    position: absolute;
+    width: 60%;
+    left: 15px;
+    top: 540px;
+}
+.rocksub{
+    position: absolute;
+    top: 860px;
+    left: 10px;
+}
+.rocksub1{
+    position: absolute;
+    top: 860px;
+    left: 270px;
+}  
+.rocksub2{
+    position: absolute;
+    top: 860px;
+    left: 550px;
+}
+.tr{
+    position: absolute;
+    top: 1155px;
+    left: 10px;
+}
+
+.tatremoval{
+    position: absolute;
+    left: 10px;
+    top: 1120px;
+    color: purple;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.tatremovaltext{
+    position: absolute;
+    top: 1170px;
+    left: 830px;
+}
+.trt1{
+    color:cadetblue;
+    position: absolute;
+    top: 1250px;
+    left: 830px;
+    text-decoration: underline;
+}
+.trt2{
+    position: absolute;
+    top: 1270px;
+    left: 830px;
+    
+}
+.hurt{
+    color: cadetblue;
+    text-decoration: underline;
+}
+.testing{
+    background-color: red;
+}
+
+/*contact us*/
+.contactsection{
+    position: relative;
+}
+.c1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    position: absolute;
+    top: 0px;
+    right: 819px;
+}
+.c3{
+    position: absolute;
+    top: 0px;
+    right: 546px;
+}
+.c4{
+    position: absolute;
+    top: 0px;
+    right: 273px;
+}
+.c5{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.getintouch{
+    position: absolute;
+    color: purple;
+    font-size: 26px;
+    left: 70px;
+    top: 260px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.git1{
+    color: wheat;
+    position: absolute;
+    width: 50%;
+    top: 290px;
+    left: 70px;
+    
+}
+.git2{
+    color: wheat;
+    position: absolute;
+    top: 360px;
+    left: 90px;
+}
+.comments{
+    position: absolute;
+    top: 370px;
+    left: 70px;
+}
+.comments input{
+    width: 600px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+.comments .git3{
+    position: absolute;
+    left: 20px;
+    top: 85px;
+}
+.comments .git4{
+    position: absolute;
+    left: 20px;
+    top: 187px;
+}
+.comments .git5{
+    position: absolute;
+    left: 20px;
+    top: 275px;
+    
+}
+textarea{
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 200px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.buttonneon {
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px orange;
+    border-radius: 20px;
+    background: orange;
+    color: #000;
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.buttonneon:hover {
+    background-color: yellow;
+    color: #000;
+    box-shadow: 0 0 5px yellow,
+                0 0 20px rgb(255 255 0 / 0.8),
+                0 0 35px rgb(255 255 0 / 0.7),
+                0 0 50px rgb(255 255 0 / 0.6);
+    border-color: #fff;
+}
+.buttonplacement{
+    position: absolute;
+    top: 155%;
+    
+}
+
+
+.comments p{
+    color: wheat;
+}
+.ourservices p{
+    color: wheat;
+}
+.tat p {
+    color: wheat;
+}
+
+/*find us*/
+.findus p{
+    color: wheat;
+}
+.findus{
+    position:relative;
+    width: -50%;
+    
+}
+.findustxt{
+    position: absolute;
+    right: 500px;
+    top: 210px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: purple;
+    font-size: 26px;
+}
+
+.map{
+    position: absolute;
+    left: 700px;
+    top: 372px;
+    
+}
+.fafa{
+    position: absolute;
+    top: 250px;
+    left:740px;
+    font-size: 25px;
+    
+}
+
+.transbox{
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background-color: wheat;
+    top: 1000px;
+    z-index: -1;
+    min-height: 200px;
+    min-width: 1000px;
+    opacity: 0.5;
+            
+}
+.contacticons{
+    position: absolute;
+    bottom: 100px;
+    left: 46%;
+    font-size: 30px;
+}
+.contacticons a{
+    color: black;
+}
+.contacticons a:hover{
+    color:dodgerblue;
+}
+.end{
+    position: absolute;
+    bottom: 70px;
+    left: 35%;
+    font-size: 20px;
+}
+.end a{
+    color: black;
+}
+.end a:hover{
+    color: dodgerblue;
+    text-decoration: none;
+    
+}
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+    
+    
+}
+.crw{
+    border-radius: 100%;
+}
+
+
+
+/*aboutus*/
+.aboutusbox{
+    left: 0;
+    width: 50%;
+    position: absolute;
+    background-color: wheat;
+    top: 0px;
+    z-index: -1;
+    min-height: 1000px;
+    min-width: 500px;
+    opacity: 0.4;    
+    
+}
+.aboutusbox1{
+    right: 0px;
+    width: 50%;
+    position: absolute;
+    background-color: antiquewhite;
+    top: 0px;
+    z-index: -1;
+    min-height: 1000px;
+    min-width: 500px;
+    opacity: 0.4;    
+    
+}
+.aboutusboxb{
+    left: 0px;;
+    width: 100%;
+    position: absolute;
+    background-color: antiquewhite;
+    top: 0px;
+    z-index: -1;
+    min-height: 1000px;
+    min-width: 500px;
+    opacity: 0.4;    
+    
+}
+
+
+.txt{
+    color: black;
+    z-index: 10;
+    position: absolute;
+    left: 40px;
+    top: 55px;
+    font-size: 26px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.story{
+    position: absolute;
+    width: 45%;
+    top: 100px;
+    left: 40px;
+    color: wheat;
+}
+.ink{
+    color: black;
+}
+.ink:hover{
+    color: wheat;
+}
+.founder{
+    position: absolute;
+    top: 90px;
+    width: 270px;
+    height: 270px;
+    left: 690px;
+}
+.crew{
+    color: black;
+    position: absolute;
+    font-family:'Rubik Wet Paint', cursive;
+    font-size: 26px;
+    left: 700px;
+    top: 55px;
+}
+.founderhead{
+    position: absolute;
+    text-decoration: underline;
+    font-family:'Rubik Wet Paint', cursive;
+    font-size: 30px;
+    color: black;
+    left:990px;
+    top:100px;
+}
+.foundertxt{
+    position: absolute;
+    color: wheat;
+    font-size: 18px;
+    width: 25%;
+    left: 990px;
+    top: 150px;
+}
+.lupita{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 690px;
+    top: 330px;
+}
+.panther{
+    position: absolute;
+    height: 330px;
+    width: 330px;
+    left: 1000px;
+    top: 300px;
+}
+.hart{
+    position: absolute;
+    width: 305px;
+    height: 365px;
+    left: 672px;
+    top: 630px;
+}
+.rock{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 630px;
+    left:1025px;
+}
+.picss{
+    position: relative;
+}
+.lupitatxt{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    left: 760px;
+    top: 660px;
+}
+.lupitatxt:hover{
+    color: wheat;
+}
+.alice{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    left: 760px;
+    top: 360px;
+}
+.alice:hover{
+    color: wheat;
+}
+.kevin{
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    left: 760px;
+    top: 960px;
+}
+.kevin:hover{
+    color: wheat;
+}
+
+.chris{
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    left: 1095px;
+    top: 650px;
+}
+.chris:hover{
+    color: wheat;
+}
+.john{
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    left: 1095px;
+    top: 960px;
+}
+.john:hover{
+    color: wheat;}
+
+   
+
+.transbox1{
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background-color: wheat;
+    top: 1790px;
+    z-index: -1;
+    min-height: 200px;
+    min-width: 1000px;
+    opacity: 0.5;
+            
+}
+.transbox2{
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background-color: wheat;
+    top: 1720px;
+    z-index: -1;
+    min-height: 200px;
+    min-width: 1000px;
+    opacity: 0.5;
+            
+}
+
+.transbox3{
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background-color: wheat;
+    top: 1000px;
+    z-index: -1;
+    min-height: 200px;
+    min-width: 1000px;
+    opacity: 0.5;
+            
+}
+
+
+
+
+
+
+
+
+
+
